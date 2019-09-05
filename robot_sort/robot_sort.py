@@ -109,6 +109,9 @@ class SortingRobot:
                 self.move_left()
             else:
                 self.move_left()
+        
+        if self._item is not None:
+            self.sort()
 
 
 if __name__ == "__main__":
